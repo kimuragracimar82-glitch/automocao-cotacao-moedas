@@ -1,10 +1,11 @@
+import os
 import requests
 import time
 from pyairtable import Api
 from datetime import datetime
 
 # Credenciais
-AIRTABLE_TOKEN = "SEU_TOKEN_AQUI"
+AIRTABLE_TOKEN = os.environ.get("AIRTABLE_TOKEN")
 BASE_ID = "app0lQPZ6LqMDhK3P"
 TABLE_NAME = "Moedas"
 
