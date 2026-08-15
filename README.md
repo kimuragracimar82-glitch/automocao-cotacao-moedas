@@ -1,0 +1,1 @@
+# automocao-cotacao-moedas
